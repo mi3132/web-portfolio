@@ -91,6 +91,10 @@ main{
     max-width: 800px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
 
 
 /* about styles */
@@ -104,6 +108,20 @@ main{
 .about-iteams{
     display: flex;
     justify-content: space-around;
+}
+text-center{
+
+    text-align: center;
 } 
+.skills-container{
+    display: flex;
+    gap: 22px;
+
+}
+.skill{
+    padding: 12px;
+    border-radius: 2px;
+    box-shadow: 0px 6px 21px 0px black;
+}
 
 
